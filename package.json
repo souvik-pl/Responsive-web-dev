@@ -1,0 +1,32 @@
+{
+  "name": "responsive-web-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souvik-pl/Responsive-web-dev.git"
+  },
+  "author": "Souvik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souvik-pl/Responsive-web-dev/issues"
+  },
+  "homepage": "https://github.com/souvik-pl/Responsive-web-dev#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "helmet": "^4.1.1",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^5.0.0"
+  }
+}
