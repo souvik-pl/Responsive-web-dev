@@ -8,6 +8,6 @@ Entire project will run on the local machine.
 * Knowledge of — HTML, CSS, JavaScript, JQuery, Bootstrap, Font-awesome, Node.js and SQLite3
 * Node.js and SQLite3 should be installed.
 
-## Final look of the project
+## Final look of the project (youtube links)
 * [Web page on big screen](https://youtu.be/kAwfXej-N6I)
 * [Web page on small screen](https://youtu.be/79WvODQJdts)
