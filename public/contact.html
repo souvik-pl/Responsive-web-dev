@@ -12,18 +12,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
    
-    <title>InfoLabzz</title>
+    <title>Iowa Snowdrifters</title>
     <style type="text/css">
     	.jumbotron{
-    		padding-top: 80px;
-            padding-bottom: 50px;
+    		padding-top: 100px;
+            padding-bottom: 30px;
     	}
-        
+		
+        #jumbo{
+            height: 100px;
+            background-color: #e0e0eb;
+            margin-top: 30px;
+            padding-top: 30px;
+
+        }
+    	
     	footer{
             margin-top: 60px;
-    		background-color: pink;
+    		background-color: #e0e0eb;
     		padding-top: 40px;
-    	} 
+    	}
         .fa {
             padding: 6px;
             width: 35px;
@@ -55,12 +63,13 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-sm bg-secondary fixed-top">
         <div class="container">
+			<a href="./index.html"><img src="./SnowdriftersThumb.jpg" class="rounded float-left" alt="Iowa Snowdrifters"></a>&nbsp;
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="./index.html">InfoLabzz</a>
+            <a class="navbar-brand mr-auto" href="./index.html">&nbsp;Iowa Snowdrifters</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -76,7 +85,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <h1 class="text-center">InfoLabzz Pvt. Ltd.</h1>                    
+                    <h1 class="text-center">Iowa Snowdrifters</h1>                    
                 </div>
             </div>
         </div>
@@ -92,40 +101,18 @@
                 <h2>Contact us</h2>
                 <br><br>                      
             </div>      
-            <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
-                <form action="/message" method="POST">
-                    <div class="form-group row">
-                        <label for="name" class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-form-label">Name</label>
-                        <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Allan Turing" required>   <!-- "for" attribute in <label> tag should match the "id" attrbute in <input> tag -->
-                        </div>
-                    </div>                    
-                    <div class="form-group row">
-                        <label for="telnum" class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-form-label">Contact Number</label>                        
-                        <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                            <input type="tel" name="telnum" class="form-control" id="telnum" placeholder="7000654982" required>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="emailid" class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-form-label">Email</label>
-                        <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                            <input type="email" name="emailid" class="form-control" id="emailid" placeholder="abc@xyz.com" required>
-                        </div>
-                    </div>                    
-                    <div class="form-group row">
-                        <label for="message" class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-form-label">Your Message</label>
-                        <div class="col-md-10">
-                            <textarea name="message" class="form-control" id="message" placeholder="Type your message..." rows="12" required></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="offset-sm-2 offset-md-2 offset-lg-2 offset-xl-2 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                            <button type="submit" id="submit" class="btn btn-primary">Send message</button>
-                        </div>
-                    </div>
-                </form>
-            </div> 
-        </div>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-left">
+				<h5>Our Address</h5>
+				<address>
+					Snowdrifters Inc.<br>                  
+					P.O. Box 5735 2nd<br>                  
+					Coralville, IA. 52241<br>                  
+					<i class="fa fa-envelope fa-lg"></i> <a target="_blank" href="mailto:iowasnowdrifters@gmail.com">iowasnowdrifters@gmail.com</a><br>
+					<i class="fa fa-phone fa-lg"></i> (563) 554-3971<br>
+					<a target="_blank" href="http://www.facebook.com/pages/Iowa-Snowdrifters/184930018201919?sk=wall"><i class="fa fa-facebook fa-lg"></i></a>
+			   </address>
+			</div>
+         </div>
     </div>
 
     <footer class="footer">
@@ -142,26 +129,17 @@
                 <div class="col-8 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
                     <h5>Our Address</h5>
                     <address>
-                      121, Clear Water Bay Road<br>                  
-                      <i class="fa fa-phone fa-lg"></i> +91-908567896<br>
-                      <i class="fa fa-fax fa-lg"></i> +91-908567896<br>
-                      <i class="fa fa-envelope fa-lg"></i> <a href="mailto:support@infolabzz.in">support@infolabzz.in</a>
+                      Snowdrifters Inc.<br>                  
+                      P.O. Box 5735 2nd<br>                  
+                      Coralville, IA. 52241<br>                  
+                      <i class="fa fa-envelope fa-lg"></i><a target="_blank" href="mailto:iowasnowdrifters@gmail.com">iowasnowdrifters@gmail.com</a>
                    </address>
                 </div>
                 <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                     <h5 class="text-center">Connect with us</h5>
                     <div class="text-center">
-                        <a href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a target="_blank" href="http://www.facebook.com/pages/Iowa-Snowdrifters/184930018201919?sk=wall"><i class="fa fa-facebook fa-lg"></i></a>
                     </div>
-                </div>
-           </div>
-           <div class="row justify-content-center">             
-                <div class="col-auto">
-                    <p>© Copyright 2020 <a href="./about.html">InfoLabzz Pvt. Ltd.</a></p>
                 </div>
            </div>
         </div>
